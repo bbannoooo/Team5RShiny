@@ -336,7 +336,7 @@ function(input, output, session) {
         style = "display:inline; padding: 10px; font-weight:bold; font-size:15pt",
         tags$span(as.character(input$date)), 
         tags$span(paste0("일자의 ", res_data$sub_name[1], " 혼잡도는 '")),
-        confusion(sub_res(), excel_data(), res_data$idx[2], input$date),
+        confusion(sub_res(), excel_data(), res_data$idx[1], input$date),
         tags$span("'입니다." )
         # confusion(sub_res(), excel_data(), res_data$idx[1], input$date)
         # "test"
@@ -415,7 +415,7 @@ function(input, output, session) {
         style = "display:inline; padding: 10px; font-weight:bold; font-size:15pt",
         tags$span(as.character(input$date)), 
         tags$span(paste0("일자의 ", res_data$sub_name[3], " 혼잡도는 '")),
-        confusion(sub_res(), excel_data(), res_data$idx[2], input$date),
+        confusion(sub_res(), excel_data(), res_data$idx[3], input$date),
         tags$span("'입니다." )
         # confusion(sub_res(), excel_data(), res_data$idx[1], input$date)
         # "test"
