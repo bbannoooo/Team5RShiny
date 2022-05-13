@@ -102,6 +102,7 @@ fluidPage(
                              ),
                            br(),
                            fluidRow(
+                             style = "padding : 10px; margin:10px",
                              plotlyOutput("dong_plot1")
                            )
                           ),
@@ -133,6 +134,7 @@ fluidPage(
                              ),
                            br(),
                            fluidRow(
+                             style = "padding : 10px; margin:10px",
                              plotlyOutput("dong_plot2")
                            )
                           ),
@@ -165,6 +167,7 @@ fluidPage(
                            ),
                            br(),
                            fluidRow(
+                             style = "padding : 10px; margin:10px",
                              plotlyOutput("dong_plot3")
                            )
                           )
